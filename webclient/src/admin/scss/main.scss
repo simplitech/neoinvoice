@@ -1,0 +1,191 @@
+@import "colors.scss";
+$simple-line-font-path: "~simple-line-icons/fonts/";
+
+$accent-color: $turquoise;
+$body-bg: $navy;
+$light-bg: lighten($navy, 10);
+$light-tone: $navyhighlight;
+$light-tone2: darken($navyhighlight, 20);
+$medium-tone: lighten($navy, 20);
+$dark-tone: $navydark;
+$default-text-color: rgba(255, 255, 255, 0.8);
+$invert-text: $navydark;
+$light-text: $default-text-color;
+
+@import "~normalize-scss/sass/normalize";
+@import "~simple-line-icons/scss/simple-line-icons.scss";
+@import "~animate.css";
+@import "base.scss";
+@import "~linelay/build.scss";
+
+body {
+    background: $body-bg;
+}
+
+.icon {
+    text-decoration: none;
+}
+
+td .icon {
+    display: block;
+    margin: 5px;
+    
+    &:hover {
+        color: $accent-color;
+    }
+}
+
+aside.menu {
+    background: $navydark;
+    li {
+        list-style-type: none;
+        padding: 0;
+
+        a {
+            text-decoration: none;
+            width: 100%;
+            display: block;
+            padding: 10px;
+            font-size: 15px;
+            @extend .transition;
+
+            &:hover, &.router-link-active {
+                border-left: 2px solid $accent-color;
+            }
+        }
+    }
+    
+    .icon-menu {
+        font-size: 1.5em;
+        margin-left: 10px;
+    }
+}
+
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+    
+    li {
+        a {
+            position: relative;
+            display: block;
+            padding: .5rem .75rem;
+            margin-left: -1px;
+            line-height: 1.25;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            text-decoration: none;
+            
+            &:hover {
+                background-color: #e9ecef;
+                border-color: #ddd;
+            }
+        }
+            
+        &.active a {
+            color: #fff;
+            background-color: $accent-color;
+            border-color: $accent-color;
+        }
+        
+        &:first-child a {
+            margin-left: 0;
+            border-top-left-radius: .25rem;
+            border-bottom-left-radius: .25rem;
+        }
+        
+        &:last-child a {
+            border-top-right-radius: .25rem;
+            border-bottom-right-radius: .25rem;
+        }
+    }
+}
+
+.close {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: .7em;
+    opacity: 0.4;
+    
+    &:before {
+        content: '×';
+    }
+    
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.alert {
+    width: 400px;
+    position: fixed;
+    top: 30px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 1050;
+    
+    padding: .75rem 1.25rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    
+    &.success {
+        background-color: #1c9136;
+    }
+    
+    &.warning {
+        background-color: #ffed1e;
+    }
+    
+    &.error {
+        background-color: #f82800;
+    }
+}
+
+.orderby {
+    @include horiz();
+    @include nowrap();
+}
+
+.caret {
+    @include self-center();
+    @extend .icon;
+    margin-left: 10px;
+    
+    .asc > & {
+        @extend .icon-arrow-down; 
+    }
+    
+    .desc > & {
+        @extend .icon-arrow-up; 
+    }
+}
+
+.form-group {
+    @include verti();
+    margin-bottom: 15px;
+    
+    &.required .control-label:after {
+        content: "*";
+        color: red;
+    }
+    
+    .control-label {
+        margin-bottom: 3px;
+    }
+    
+    .form-control {
+        width: 100%;
+    }
+    
+    .multiselect-label {
+        font-weight: bold;
+    }
+}
+
+input:not([type=submit]):not([type=checkbox]):not([type=radio]).search, textarea.search, select.search {
+    border-radius: 16px;
+    padding-left: 10px;
+}

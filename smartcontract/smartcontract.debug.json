@@ -1,0 +1,2771 @@
+{
+    "avm": {
+        "name": "smartcontract",
+        "hash": "ae8c4b5b1ad79a396b024bbc0c899cab"
+    },
+    "compiler": {
+        "name": "neo-boa",
+        "version": "0.4.1"
+    },
+    "files": [
+        {
+            "id": 1,
+            "url": "/Users/simpliinc./Workspace/neodns-smartcontract/python/smartcontract.py"
+        },
+        {
+            "id": 2,
+            "url": "/Users/simpliinc./Workspace/neo-python/venv/lib/python3.6/site-packages/boa/builtins.py"
+        }
+    ],
+    "map": [
+        {
+            "start": 14,
+            "end": 39,
+            "file": 1,
+            "method": "Main",
+            "line": 23,
+            "file_line_no": 49
+        },
+        {
+            "start": 40,
+            "end": 69,
+            "file": 1,
+            "method": "Main",
+            "line": 2,
+            "file_line_no": 28
+        },
+        {
+            "start": 70,
+            "end": 78,
+            "file": 1,
+            "method": "Main",
+            "line": 6,
+            "file_line_no": 32
+        },
+        {
+            "start": 79,
+            "end": 112,
+            "file": 1,
+            "method": "Main",
+            "line": 7,
+            "file_line_no": 33
+        },
+        {
+            "start": 113,
+            "end": 121,
+            "file": 1,
+            "method": "Main",
+            "line": 9,
+            "file_line_no": 35
+        },
+        {
+            "start": 122,
+            "end": 148,
+            "file": 1,
+            "method": "Main",
+            "line": 10,
+            "file_line_no": 36
+        },
+        {
+            "start": 149,
+            "end": 160,
+            "file": 1,
+            "method": "Main",
+            "line": 11,
+            "file_line_no": 37
+        },
+        {
+            "start": 161,
+            "end": 167,
+            "file": 1,
+            "method": "Main",
+            "line": 12,
+            "file_line_no": 38
+        },
+        {
+            "start": 168,
+            "end": 185,
+            "file": 1,
+            "method": "Main",
+            "line": 13,
+            "file_line_no": 39
+        },
+        {
+            "start": 186,
+            "end": 197,
+            "file": 1,
+            "method": "Main",
+            "line": 14,
+            "file_line_no": 40
+        },
+        {
+            "start": 198,
+            "end": 216,
+            "file": 1,
+            "method": "Main",
+            "line": 15,
+            "file_line_no": 41
+        },
+        {
+            "start": 217,
+            "end": 228,
+            "file": 1,
+            "method": "Main",
+            "line": 16,
+            "file_line_no": 42
+        },
+        {
+            "start": 229,
+            "end": 250,
+            "file": 1,
+            "method": "Main",
+            "line": 17,
+            "file_line_no": 43
+        },
+        {
+            "start": 251,
+            "end": 268,
+            "file": 1,
+            "method": "Main",
+            "line": 18,
+            "file_line_no": 44
+        },
+        {
+            "start": 269,
+            "end": 284,
+            "file": 1,
+            "method": "Main",
+            "line": 19,
+            "file_line_no": 45
+        },
+        {
+            "start": 285,
+            "end": 308,
+            "file": 1,
+            "method": "Main",
+            "line": 20,
+            "file_line_no": 46
+        },
+        {
+            "start": 309,
+            "end": 332,
+            "file": 1,
+            "method": "Main",
+            "line": 21,
+            "file_line_no": 47
+        },
+        {
+            "start": 333,
+            "end": 379,
+            "file": 1,
+            "method": "Main",
+            "line": 22,
+            "file_line_no": 48
+        },
+        {
+            "start": 380,
+            "end": 403,
+            "file": 1,
+            "method": "Main",
+            "line": 23,
+            "file_line_no": 49
+        },
+        {
+            "start": 404,
+            "end": 421,
+            "file": 1,
+            "method": "Main",
+            "line": 24,
+            "file_line_no": 50
+        },
+        {
+            "start": 422,
+            "end": 448,
+            "file": 1,
+            "method": "Main",
+            "line": 25,
+            "file_line_no": 51
+        },
+        {
+            "start": 449,
+            "end": 472,
+            "file": 1,
+            "method": "Main",
+            "line": 26,
+            "file_line_no": 52
+        },
+        {
+            "start": 473,
+            "end": 494,
+            "file": 1,
+            "method": "Main",
+            "line": 27,
+            "file_line_no": 53
+        },
+        {
+            "start": 495,
+            "end": 518,
+            "file": 1,
+            "method": "Main",
+            "line": 28,
+            "file_line_no": 54
+        },
+        {
+            "start": 519,
+            "end": 550,
+            "file": 1,
+            "method": "Main",
+            "line": 29,
+            "file_line_no": 55
+        },
+        {
+            "start": 551,
+            "end": 597,
+            "file": 1,
+            "method": "Main",
+            "line": 30,
+            "file_line_no": 56
+        },
+        {
+            "start": 598,
+            "end": 627,
+            "file": 1,
+            "method": "Main",
+            "line": 31,
+            "file_line_no": 57
+        },
+        {
+            "start": 628,
+            "end": 645,
+            "file": 1,
+            "method": "Main",
+            "line": 32,
+            "file_line_no": 58
+        },
+        {
+            "start": 646,
+            "end": 677,
+            "file": 1,
+            "method": "Main",
+            "line": 33,
+            "file_line_no": 59
+        },
+        {
+            "start": 678,
+            "end": 701,
+            "file": 1,
+            "method": "Main",
+            "line": 34,
+            "file_line_no": 60
+        },
+        {
+            "start": 702,
+            "end": 735,
+            "file": 1,
+            "method": "Main",
+            "line": 35,
+            "file_line_no": 61
+        },
+        {
+            "start": 736,
+            "end": 759,
+            "file": 1,
+            "method": "Main",
+            "line": 36,
+            "file_line_no": 62
+        },
+        {
+            "start": 760,
+            "end": 764,
+            "file": 1,
+            "method": "Main",
+            "line": 38,
+            "file_line_no": 64
+        },
+        {
+            "start": 765,
+            "end": 776,
+            "file": 1,
+            "method": "createPriceKey",
+            "line": 40,
+            "file_line_no": 977
+        },
+        {
+            "start": 777,
+            "end": 1273,
+            "file": 1,
+            "method": "customRemove",
+            "line": 2,
+            "file_line_no": 850
+        },
+        {
+            "start": 1274,
+            "end": 1279,
+            "file": 1,
+            "method": "customRemove",
+            "line": 3,
+            "file_line_no": 851
+        },
+        {
+            "start": 1280,
+            "end": 1285,
+            "file": 1,
+            "method": "customRemove",
+            "line": 4,
+            "file_line_no": 852
+        },
+        {
+            "start": 1286,
+            "end": 1291,
+            "file": 1,
+            "method": "customRemove",
+            "line": 5,
+            "file_line_no": 853
+        },
+        {
+            "start": 1292,
+            "end": 1304,
+            "file": 1,
+            "method": "customRemove",
+            "line": 6,
+            "file_line_no": 854
+        },
+        {
+            "start": 1305,
+            "end": 1331,
+            "file": 1,
+            "method": "customRemove",
+            "line": 7,
+            "file_line_no": 855
+        },
+        {
+            "start": 1332,
+            "end": 1341,
+            "file": 1,
+            "method": "customRemove",
+            "line": 8,
+            "file_line_no": 856
+        },
+        {
+            "start": 1342,
+            "end": 1357,
+            "file": 1,
+            "method": "customRemove",
+            "line": 9,
+            "file_line_no": 857
+        },
+        {
+            "start": 1358,
+            "end": 1367,
+            "file": 1,
+            "method": "customRemove",
+            "line": 11,
+            "file_line_no": 859
+        },
+        {
+            "start": 1368,
+            "end": 1380,
+            "file": 1,
+            "method": "customRemove",
+            "line": 12,
+            "file_line_no": 860
+        },
+        {
+            "start": 1381,
+            "end": 1387,
+            "file": 1,
+            "method": "customRemove",
+            "line": 13,
+            "file_line_no": 861
+        },
+        {
+            "start": 1388,
+            "end": 1403,
+            "file": 1,
+            "method": "customRemove",
+            "line": 14,
+            "file_line_no": 862
+        },
+        {
+            "start": 1404,
+            "end": 1422,
+            "file": 1,
+            "method": "customRemove",
+            "line": 15,
+            "file_line_no": 863
+        },
+        {
+            "start": 1423,
+            "end": 1446,
+            "file": 1,
+            "method": "removeHashFromHashes",
+            "line": 17,
+            "file_line_no": 849
+        },
+        {
+            "start": 1447,
+            "end": 1476,
+            "file": 1,
+            "method": "removeHashFromHashes",
+            "line": 2,
+            "file_line_no": 834
+        },
+        {
+            "start": 1477,
+            "end": 1506,
+            "file": 1,
+            "method": "removeHashFromHashes",
+            "line": 3,
+            "file_line_no": 835
+        },
+        {
+            "start": 1507,
+            "end": 1525,
+            "file": 1,
+            "method": "removeHashFromHashes",
+            "line": 4,
+            "file_line_no": 836
+        },
+        {
+            "start": 1526,
+            "end": 1576,
+            "file": 1,
+            "method": "addHashToHashes",
+            "line": 5,
+            "file_line_no": 818
+        },
+        {
+            "start": 1577,
+            "end": 1628,
+            "file": 1,
+            "method": "addHashToHashes",
+            "line": 2,
+            "file_line_no": 815
+        },
+        {
+            "start": 1629,
+            "end": 1636,
+            "file": 1,
+            "method": "addHashToHashes",
+            "line": 3,
+            "file_line_no": 816
+        },
+        {
+            "start": 1637,
+            "end": 1691,
+            "file": 1,
+            "method": "addHashToHashes",
+            "line": 4,
+            "file_line_no": 817
+        },
+        {
+            "start": 1692,
+            "end": 1703,
+            "file": 1,
+            "method": "addHashToHashes",
+            "line": 6,
+            "file_line_no": 819
+        },
+        {
+            "start": 1704,
+            "end": 1715,
+            "file": 1,
+            "method": "addHashToHashes",
+            "line": 7,
+            "file_line_no": 820
+        },
+        {
+            "start": 1716,
+            "end": 1784,
+            "file": 1,
+            "method": "removeDomainFromStorage",
+            "line": 8,
+            "file_line_no": 807
+        },
+        {
+            "start": 1785,
+            "end": 1795,
+            "file": 1,
+            "method": "removeDomainFromStorage",
+            "line": 2,
+            "file_line_no": 801
+        },
+        {
+            "start": 1796,
+            "end": 1825,
+            "file": 1,
+            "method": "addDomainToStorage",
+            "line": 3,
+            "file_line_no": 788
+        },
+        {
+            "start": 1826,
+            "end": 1836,
+            "file": 1,
+            "method": "addDomainToStorage",
+            "line": 2,
+            "file_line_no": 787
+        },
+        {
+            "start": 1837,
+            "end": 1871,
+            "file": 1,
+            "method": "createTransactionHash",
+            "line": 3,
+            "file_line_no": 770
+        },
+        {
+            "start": 1872,
+            "end": 1884,
+            "file": 1,
+            "method": "createTransactionHash",
+            "line": 2,
+            "file_line_no": 769
+        },
+        {
+            "start": 1885,
+            "end": 1895,
+            "file": 1,
+            "method": "createTransactionHash",
+            "line": 3,
+            "file_line_no": 770
+        },
+        {
+            "start": 1896,
+            "end": 1907,
+            "file": 1,
+            "method": "createTransactionHash",
+            "line": 4,
+            "file_line_no": 771
+        },
+        {
+            "start": 1908,
+            "end": 1918,
+            "file": 1,
+            "method": "createTransactionHash",
+            "line": 5,
+            "file_line_no": 772
+        },
+        {
+            "start": 1919,
+            "end": 1938,
+            "file": 1,
+            "method": "createTransactionHash",
+            "line": 6,
+            "file_line_no": 773
+        },
+        {
+            "start": 1939,
+            "end": 1963,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 7,
+            "file_line_no": 694
+        },
+        {
+            "start": 1964,
+            "end": 1996,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 2,
+            "file_line_no": 689
+        },
+        {
+            "start": 1997,
+            "end": 2001,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 3,
+            "file_line_no": 690
+        },
+        {
+            "start": 2002,
+            "end": 2014,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 6,
+            "file_line_no": 693
+        },
+        {
+            "start": 2015,
+            "end": 2019,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 7,
+            "file_line_no": 694
+        },
+        {
+            "start": 2020,
+            "end": 2034,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 10,
+            "file_line_no": 697
+        },
+        {
+            "start": 2035,
+            "end": 2039,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 11,
+            "file_line_no": 698
+        },
+        {
+            "start": 2040,
+            "end": 2054,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 14,
+            "file_line_no": 701
+        },
+        {
+            "start": 2055,
+            "end": 2084,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 16,
+            "file_line_no": 703
+        },
+        {
+            "start": 2085,
+            "end": 2114,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 18,
+            "file_line_no": 705
+        },
+        {
+            "start": 2115,
+            "end": 2150,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 40,
+            "file_line_no": 727
+        },
+        {
+            "start": 2151,
+            "end": 2180,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 46,
+            "file_line_no": 733
+        },
+        {
+            "start": 2181,
+            "end": 2191,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 49,
+            "file_line_no": 736
+        },
+        {
+            "start": 2192,
+            "end": 2221,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 51,
+            "file_line_no": 738
+        },
+        {
+            "start": 2222,
+            "end": 2231,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 53,
+            "file_line_no": 740
+        },
+        {
+            "start": 2232,
+            "end": 2260,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 54,
+            "file_line_no": 741
+        },
+        {
+            "start": 2261,
+            "end": 2293,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 56,
+            "file_line_no": 743
+        },
+        {
+            "start": 2294,
+            "end": 2312,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 59,
+            "file_line_no": 746
+        },
+        {
+            "start": 2313,
+            "end": 2323,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 62,
+            "file_line_no": 749
+        },
+        {
+            "start": 2324,
+            "end": 2336,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 63,
+            "file_line_no": 750
+        },
+        {
+            "start": 2337,
+            "end": 2347,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 66,
+            "file_line_no": 753
+        },
+        {
+            "start": 2348,
+            "end": 2357,
+            "file": 1,
+            "method": "completePendingTransaction",
+            "line": 67,
+            "file_line_no": 754
+        },
+        {
+            "start": 2358,
+            "end": 2380,
+            "file": 1,
+            "method": "removePendingTransaction",
+            "line": 69,
+            "file_line_no": 713
+        },
+        {
+            "start": 2381,
+            "end": 2413,
+            "file": 1,
+            "method": "removePendingTransaction",
+            "line": 2,
+            "file_line_no": 646
+        },
+        {
+            "start": 2414,
+            "end": 2418,
+            "file": 1,
+            "method": "removePendingTransaction",
+            "line": 3,
+            "file_line_no": 647
+        },
+        {
+            "start": 2419,
+            "end": 2431,
+            "file": 1,
+            "method": "removePendingTransaction",
+            "line": 6,
+            "file_line_no": 650
+        },
+        {
+            "start": 2432,
+            "end": 2436,
+            "file": 1,
+            "method": "removePendingTransaction",
+            "line": 7,
+            "file_line_no": 651
+        },
+        {
+            "start": 2437,
+            "end": 2451,
+            "file": 1,
+            "method": "removePendingTransaction",
+            "line": 10,
+            "file_line_no": 654
+        },
+        {
+            "start": 2452,
+            "end": 2456,
+            "file": 1,
+            "method": "removePendingTransaction",
+            "line": 11,
+            "file_line_no": 655
+        },
+        {
+            "start": 2457,
+            "end": 2471,
+            "file": 1,
+            "method": "removePendingTransaction",
+            "line": 14,
+            "file_line_no": 658
+        },
+        {
+            "start": 2472,
+            "end": 2501,
+            "file": 1,
+            "method": "removePendingTransaction",
+            "line": 16,
+            "file_line_no": 660
+        },
+        {
+            "start": 2502,
+            "end": 2534,
+            "file": 1,
+            "method": "removePendingTransaction",
+            "line": 17,
+            "file_line_no": 661
+        },
+        {
+            "start": 2535,
+            "end": 2567,
+            "file": 1,
+            "method": "removePendingTransaction",
+            "line": 18,
+            "file_line_no": 662
+        },
+        {
+            "start": 2568,
+            "end": 2586,
+            "file": 1,
+            "method": "removePendingTransaction",
+            "line": 21,
+            "file_line_no": 665
+        },
+        {
+            "start": 2587,
+            "end": 2614,
+            "file": 1,
+            "method": "removePendingTransaction",
+            "line": 23,
+            "file_line_no": 667
+        },
+        {
+            "start": 2615,
+            "end": 2645,
+            "file": 1,
+            "method": "removePendingTransaction",
+            "line": 24,
+            "file_line_no": 668
+        },
+        {
+            "start": 2646,
+            "end": 2676,
+            "file": 1,
+            "method": "removePendingTransaction",
+            "line": 25,
+            "file_line_no": 669
+        },
+        {
+            "start": 2677,
+            "end": 2707,
+            "file": 1,
+            "method": "removePendingTransaction",
+            "line": 26,
+            "file_line_no": 670
+        },
+        {
+            "start": 2708,
+            "end": 2718,
+            "file": 1,
+            "method": "removePendingTransaction",
+            "line": 29,
+            "file_line_no": 673
+        },
+        {
+            "start": 2719,
+            "end": 2731,
+            "file": 1,
+            "method": "removePendingTransaction",
+            "line": 30,
+            "file_line_no": 674
+        },
+        {
+            "start": 2732,
+            "end": 2748,
+            "file": 1,
+            "method": "readPendingTransaction",
+            "line": 32,
+            "file_line_no": 648
+        },
+        {
+            "start": 2749,
+            "end": 2757,
+            "file": 1,
+            "method": "readPendingTransaction",
+            "line": 3,
+            "file_line_no": 619
+        },
+        {
+            "start": 2758,
+            "end": 2762,
+            "file": 1,
+            "method": "readPendingTransaction",
+            "line": 4,
+            "file_line_no": 620
+        },
+        {
+            "start": 2763,
+            "end": 2792,
+            "file": 1,
+            "method": "readPendingTransaction",
+            "line": 6,
+            "file_line_no": 622
+        },
+        {
+            "start": 2793,
+            "end": 2807,
+            "file": 1,
+            "method": "readPendingTransaction",
+            "line": 9,
+            "file_line_no": 625
+        },
+        {
+            "start": 2808,
+            "end": 2837,
+            "file": 1,
+            "method": "readPendingTransaction",
+            "line": 10,
+            "file_line_no": 626
+        },
+        {
+            "start": 2838,
+            "end": 2870,
+            "file": 1,
+            "method": "readPendingTransaction",
+            "line": 11,
+            "file_line_no": 627
+        },
+        {
+            "start": 2871,
+            "end": 2903,
+            "file": 1,
+            "method": "readPendingTransaction",
+            "line": 12,
+            "file_line_no": 628
+        },
+        {
+            "start": 2904,
+            "end": 2936,
+            "file": 1,
+            "method": "readPendingTransaction",
+            "line": 13,
+            "file_line_no": 629
+        },
+        {
+            "start": 2937,
+            "end": 2957,
+            "file": 1,
+            "method": "readPendingTransaction",
+            "line": 15,
+            "file_line_no": 631
+        },
+        {
+            "start": 2958,
+            "end": 2972,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 17,
+            "file_line_no": 574
+        },
+        {
+            "start": 2973,
+            "end": 2978,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 2,
+            "file_line_no": 559
+        },
+        {
+            "start": 2979,
+            "end": 2984,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 3,
+            "file_line_no": 560
+        },
+        {
+            "start": 2985,
+            "end": 2990,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 4,
+            "file_line_no": 561
+        },
+        {
+            "start": 2991,
+            "end": 2991,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 5,
+            "file_line_no": 562
+        },
+        {
+            "start": 2992,
+            "end": 3004,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 6,
+            "file_line_no": 563
+        },
+        {
+            "start": 3005,
+            "end": 3023,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 7,
+            "file_line_no": 564
+        },
+        {
+            "start": 3024,
+            "end": 3032,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 8,
+            "file_line_no": 565
+        },
+        {
+            "start": 3033,
+            "end": 3050,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 9,
+            "file_line_no": 566
+        },
+        {
+            "start": 3051,
+            "end": 3059,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 10,
+            "file_line_no": 567
+        },
+        {
+            "start": 3060,
+            "end": 3077,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 11,
+            "file_line_no": 568
+        },
+        {
+            "start": 3078,
+            "end": 3086,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 12,
+            "file_line_no": 569
+        },
+        {
+            "start": 3087,
+            "end": 3104,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 13,
+            "file_line_no": 570
+        },
+        {
+            "start": 3105,
+            "end": 3113,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 14,
+            "file_line_no": 571
+        },
+        {
+            "start": 3114,
+            "end": 3131,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 15,
+            "file_line_no": 572
+        },
+        {
+            "start": 3132,
+            "end": 3140,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 16,
+            "file_line_no": 573
+        },
+        {
+            "start": 3141,
+            "end": 3158,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 17,
+            "file_line_no": 574
+        },
+        {
+            "start": 3159,
+            "end": 3167,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 18,
+            "file_line_no": 575
+        },
+        {
+            "start": 3168,
+            "end": 3185,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 19,
+            "file_line_no": 576
+        },
+        {
+            "start": 3186,
+            "end": 3194,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 20,
+            "file_line_no": 577
+        },
+        {
+            "start": 3195,
+            "end": 3212,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 21,
+            "file_line_no": 578
+        },
+        {
+            "start": 3213,
+            "end": 3221,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 22,
+            "file_line_no": 579
+        },
+        {
+            "start": 3222,
+            "end": 3239,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 23,
+            "file_line_no": 580
+        },
+        {
+            "start": 3240,
+            "end": 3248,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 24,
+            "file_line_no": 581
+        },
+        {
+            "start": 3249,
+            "end": 3266,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 25,
+            "file_line_no": 582
+        },
+        {
+            "start": 3267,
+            "end": 3275,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 26,
+            "file_line_no": 583
+        },
+        {
+            "start": 3276,
+            "end": 3293,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 27,
+            "file_line_no": 584
+        },
+        {
+            "start": 3294,
+            "end": 3303,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 28,
+            "file_line_no": 585
+        },
+        {
+            "start": 3304,
+            "end": 3321,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 29,
+            "file_line_no": 586
+        },
+        {
+            "start": 3322,
+            "end": 3331,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 30,
+            "file_line_no": 587
+        },
+        {
+            "start": 3332,
+            "end": 3349,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 31,
+            "file_line_no": 588
+        },
+        {
+            "start": 3350,
+            "end": 3359,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 32,
+            "file_line_no": 589
+        },
+        {
+            "start": 3360,
+            "end": 3377,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 33,
+            "file_line_no": 590
+        },
+        {
+            "start": 3378,
+            "end": 3387,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 34,
+            "file_line_no": 591
+        },
+        {
+            "start": 3388,
+            "end": 3405,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 35,
+            "file_line_no": 592
+        },
+        {
+            "start": 3406,
+            "end": 3415,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 36,
+            "file_line_no": 593
+        },
+        {
+            "start": 3416,
+            "end": 3433,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 37,
+            "file_line_no": 594
+        },
+        {
+            "start": 3434,
+            "end": 3443,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 38,
+            "file_line_no": 595
+        },
+        {
+            "start": 3444,
+            "end": 3458,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 39,
+            "file_line_no": 596
+        },
+        {
+            "start": 3459,
+            "end": 3459,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 41,
+            "file_line_no": 598
+        },
+        {
+            "start": 3460,
+            "end": 3475,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 42,
+            "file_line_no": 599
+        },
+        {
+            "start": 3476,
+            "end": 3476,
+            "file": 1,
+            "method": "hex_to_dec",
+            "line": 44,
+            "file_line_no": 601
+        },
+        {
+            "start": 3477,
+            "end": 3506,
+            "file": 1,
+            "method": "createPendingTransaction",
+            "line": 45,
+            "file_line_no": 566
+        },
+        {
+            "start": 3507,
+            "end": 3539,
+            "file": 1,
+            "method": "createPendingTransaction",
+            "line": 2,
+            "file_line_no": 523
+        },
+        {
+            "start": 3540,
+            "end": 3544,
+            "file": 1,
+            "method": "createPendingTransaction",
+            "line": 3,
+            "file_line_no": 524
+        },
+        {
+            "start": 3545,
+            "end": 3557,
+            "file": 1,
+            "method": "createPendingTransaction",
+            "line": 6,
+            "file_line_no": 527
+        },
+        {
+            "start": 3558,
+            "end": 3562,
+            "file": 1,
+            "method": "createPendingTransaction",
+            "line": 7,
+            "file_line_no": 528
+        },
+        {
+            "start": 3563,
+            "end": 3592,
+            "file": 1,
+            "method": "createPendingTransaction",
+            "line": 9,
+            "file_line_no": 530
+        },
+        {
+            "start": 3593,
+            "end": 3625,
+            "file": 1,
+            "method": "createPendingTransaction",
+            "line": 11,
+            "file_line_no": 532
+        },
+        {
+            "start": 3626,
+            "end": 3636,
+            "file": 1,
+            "method": "createPendingTransaction",
+            "line": 13,
+            "file_line_no": 534
+        },
+        {
+            "start": 3637,
+            "end": 3646,
+            "file": 1,
+            "method": "createPendingTransaction",
+            "line": 16,
+            "file_line_no": 537
+        },
+        {
+            "start": 3647,
+            "end": 3661,
+            "file": 1,
+            "method": "createPendingTransaction",
+            "line": 19,
+            "file_line_no": 540
+        },
+        {
+            "start": 3662,
+            "end": 3690,
+            "file": 1,
+            "method": "createPendingTransaction",
+            "line": 20,
+            "file_line_no": 541
+        },
+        {
+            "start": 3691,
+            "end": 3721,
+            "file": 1,
+            "method": "createPendingTransaction",
+            "line": 21,
+            "file_line_no": 542
+        },
+        {
+            "start": 3722,
+            "end": 3753,
+            "file": 1,
+            "method": "createPendingTransaction",
+            "line": 22,
+            "file_line_no": 543
+        },
+        {
+            "start": 3754,
+            "end": 3785,
+            "file": 1,
+            "method": "createPendingTransaction",
+            "line": 23,
+            "file_line_no": 544
+        },
+        {
+            "start": 3786,
+            "end": 3817,
+            "file": 1,
+            "method": "createPendingTransaction",
+            "line": 26,
+            "file_line_no": 547
+        },
+        {
+            "start": 3818,
+            "end": 3828,
+            "file": 1,
+            "method": "createPendingTransaction",
+            "line": 28,
+            "file_line_no": 549
+        },
+        {
+            "start": 3829,
+            "end": 3847,
+            "file": 1,
+            "method": "createPendingTransaction",
+            "line": 30,
+            "file_line_no": 551
+        },
+        {
+            "start": 3848,
+            "end": 3860,
+            "file": 1,
+            "method": "createPendingTransaction",
+            "line": 33,
+            "file_line_no": 554
+        },
+        {
+            "start": 3861,
+            "end": 3884,
+            "file": 1,
+            "method": "transferDomain",
+            "line": 35,
+            "file_line_no": 527
+        },
+        {
+            "start": 3885,
+            "end": 3917,
+            "file": 1,
+            "method": "transferDomain",
+            "line": 2,
+            "file_line_no": 494
+        },
+        {
+            "start": 3918,
+            "end": 3922,
+            "file": 1,
+            "method": "transferDomain",
+            "line": 3,
+            "file_line_no": 495
+        },
+        {
+            "start": 3923,
+            "end": 3935,
+            "file": 1,
+            "method": "transferDomain",
+            "line": 6,
+            "file_line_no": 498
+        },
+        {
+            "start": 3936,
+            "end": 3940,
+            "file": 1,
+            "method": "transferDomain",
+            "line": 7,
+            "file_line_no": 499
+        },
+        {
+            "start": 3941,
+            "end": 3991,
+            "file": 1,
+            "method": "transferDomain",
+            "line": 10,
+            "file_line_no": 502
+        },
+        {
+            "start": 3992,
+            "end": 4003,
+            "file": 1,
+            "method": "transferDomain",
+            "line": 12,
+            "file_line_no": 504
+        },
+        {
+            "start": 4004,
+            "end": 4013,
+            "file": 1,
+            "method": "transferDomain",
+            "line": 14,
+            "file_line_no": 506
+        },
+        {
+            "start": 4014,
+            "end": 4023,
+            "file": 1,
+            "method": "transferDomain",
+            "line": 16,
+            "file_line_no": 508
+        },
+        {
+            "start": 4024,
+            "end": 4046,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 18,
+            "file_line_no": 467
+        },
+        {
+            "start": 4047,
+            "end": 4079,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 2,
+            "file_line_no": 451
+        },
+        {
+            "start": 4080,
+            "end": 4084,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 3,
+            "file_line_no": 452
+        },
+        {
+            "start": 4085,
+            "end": 4097,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 6,
+            "file_line_no": 455
+        },
+        {
+            "start": 4098,
+            "end": 4102,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 7,
+            "file_line_no": 456
+        },
+        {
+            "start": 4103,
+            "end": 4117,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 9,
+            "file_line_no": 458
+        },
+        {
+            "start": 4118,
+            "end": 4126,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 10,
+            "file_line_no": 459
+        },
+        {
+            "start": 4127,
+            "end": 4156,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 11,
+            "file_line_no": 460
+        },
+        {
+            "start": 4157,
+            "end": 4189,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 12,
+            "file_line_no": 461
+        },
+        {
+            "start": 4190,
+            "end": 4197,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 13,
+            "file_line_no": 462
+        },
+        {
+            "start": 4198,
+            "end": 4232,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 14,
+            "file_line_no": 463
+        },
+        {
+            "start": 4233,
+            "end": 4263,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 15,
+            "file_line_no": 464
+        },
+        {
+            "start": 4264,
+            "end": 4296,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 17,
+            "file_line_no": 466
+        },
+        {
+            "start": 4297,
+            "end": 4307,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 18,
+            "file_line_no": 467
+        },
+        {
+            "start": 4308,
+            "end": 4319,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 19,
+            "file_line_no": 468
+        },
+        {
+            "start": 4320,
+            "end": 4330,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 21,
+            "file_line_no": 470
+        },
+        {
+            "start": 4331,
+            "end": 4344,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 22,
+            "file_line_no": 471
+        },
+        {
+            "start": 4345,
+            "end": 4372,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 24,
+            "file_line_no": 473
+        },
+        {
+            "start": 4373,
+            "end": 4403,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 25,
+            "file_line_no": 474
+        },
+        {
+            "start": 4404,
+            "end": 4434,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 26,
+            "file_line_no": 475
+        },
+        {
+            "start": 4435,
+            "end": 4446,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 29,
+            "file_line_no": 478
+        },
+        {
+            "start": 4447,
+            "end": 4456,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 30,
+            "file_line_no": 479
+        },
+        {
+            "start": 4457,
+            "end": 4461,
+            "file": 1,
+            "method": "removeSubaccountAsMaster",
+            "line": 31,
+            "file_line_no": 480
+        },
+        {
+            "start": 4462,
+            "end": 4479,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 32,
+            "file_line_no": 427
+        },
+        {
+            "start": 4480,
+            "end": 4512,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 2,
+            "file_line_no": 397
+        },
+        {
+            "start": 4513,
+            "end": 4517,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 3,
+            "file_line_no": 398
+        },
+        {
+            "start": 4518,
+            "end": 4526,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 6,
+            "file_line_no": 401
+        },
+        {
+            "start": 4527,
+            "end": 4531,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 7,
+            "file_line_no": 402
+        },
+        {
+            "start": 4532,
+            "end": 4544,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 10,
+            "file_line_no": 405
+        },
+        {
+            "start": 4545,
+            "end": 4549,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 11,
+            "file_line_no": 406
+        },
+        {
+            "start": 4550,
+            "end": 4579,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 13,
+            "file_line_no": 408
+        },
+        {
+            "start": 4580,
+            "end": 4594,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 15,
+            "file_line_no": 410
+        },
+        {
+            "start": 4595,
+            "end": 4603,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 17,
+            "file_line_no": 412
+        },
+        {
+            "start": 4604,
+            "end": 4636,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 18,
+            "file_line_no": 413
+        },
+        {
+            "start": 4637,
+            "end": 4647,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 19,
+            "file_line_no": 414
+        },
+        {
+            "start": 4648,
+            "end": 4655,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 20,
+            "file_line_no": 415
+        },
+        {
+            "start": 4656,
+            "end": 4660,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 21,
+            "file_line_no": 416
+        },
+        {
+            "start": 4661,
+            "end": 4666,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 23,
+            "file_line_no": 418
+        },
+        {
+            "start": 4667,
+            "end": 4671,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 24,
+            "file_line_no": 419
+        },
+        {
+            "start": 4672,
+            "end": 4704,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 27,
+            "file_line_no": 422
+        },
+        {
+            "start": 4705,
+            "end": 4715,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 28,
+            "file_line_no": 423
+        },
+        {
+            "start": 4716,
+            "end": 4727,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 29,
+            "file_line_no": 424
+        },
+        {
+            "start": 4728,
+            "end": 4738,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 32,
+            "file_line_no": 427
+        },
+        {
+            "start": 4739,
+            "end": 4755,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 33,
+            "file_line_no": 428
+        },
+        {
+            "start": 4756,
+            "end": 4784,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 36,
+            "file_line_no": 431
+        },
+        {
+            "start": 4785,
+            "end": 4816,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 38,
+            "file_line_no": 433
+        },
+        {
+            "start": 4817,
+            "end": 4846,
+            "file": 1,
+            "method": "addDomainAsSubaccount",
+            "line": 41,
+            "file_line_no": 436
+        },
+        {
+            "start": 4847,
+            "end": 4874,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 43,
+            "file_line_no": 379
+        },
+        {
+            "start": 4875,
+            "end": 4907,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 2,
+            "file_line_no": 338
+        },
+        {
+            "start": 4908,
+            "end": 4912,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 3,
+            "file_line_no": 339
+        },
+        {
+            "start": 4913,
+            "end": 4925,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 6,
+            "file_line_no": 342
+        },
+        {
+            "start": 4926,
+            "end": 4930,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 7,
+            "file_line_no": 343
+        },
+        {
+            "start": 4931,
+            "end": 4960,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 9,
+            "file_line_no": 345
+        },
+        {
+            "start": 4961,
+            "end": 4975,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 11,
+            "file_line_no": 347
+        },
+        {
+            "start": 4976,
+            "end": 4990,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 12,
+            "file_line_no": 348
+        },
+        {
+            "start": 4991,
+            "end": 4999,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 15,
+            "file_line_no": 351
+        },
+        {
+            "start": 5000,
+            "end": 5004,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 16,
+            "file_line_no": 352
+        },
+        {
+            "start": 5005,
+            "end": 5013,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 18,
+            "file_line_no": 354
+        },
+        {
+            "start": 5014,
+            "end": 5046,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 19,
+            "file_line_no": 355
+        },
+        {
+            "start": 5047,
+            "end": 5057,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 20,
+            "file_line_no": 356
+        },
+        {
+            "start": 5058,
+            "end": 5065,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 21,
+            "file_line_no": 357
+        },
+        {
+            "start": 5066,
+            "end": 5070,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 22,
+            "file_line_no": 358
+        },
+        {
+            "start": 5071,
+            "end": 5076,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 24,
+            "file_line_no": 360
+        },
+        {
+            "start": 5077,
+            "end": 5081,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 25,
+            "file_line_no": 361
+        },
+        {
+            "start": 5082,
+            "end": 5092,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 27,
+            "file_line_no": 363
+        },
+        {
+            "start": 5093,
+            "end": 5104,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 28,
+            "file_line_no": 364
+        },
+        {
+            "start": 5105,
+            "end": 5115,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 31,
+            "file_line_no": 367
+        },
+        {
+            "start": 5116,
+            "end": 5128,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 32,
+            "file_line_no": 368
+        },
+        {
+            "start": 5129,
+            "end": 5140,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 35,
+            "file_line_no": 371
+        },
+        {
+            "start": 5141,
+            "end": 5154,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 36,
+            "file_line_no": 372
+        },
+        {
+            "start": 5155,
+            "end": 5183,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 39,
+            "file_line_no": 375
+        },
+        {
+            "start": 5184,
+            "end": 5215,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 41,
+            "file_line_no": 377
+        },
+        {
+            "start": 5216,
+            "end": 5245,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 44,
+            "file_line_no": 380
+        },
+        {
+            "start": 5246,
+            "end": 5274,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 45,
+            "file_line_no": 381
+        },
+        {
+            "start": 5275,
+            "end": 5306,
+            "file": 1,
+            "method": "addSubaccountAsMaster",
+            "line": 46,
+            "file_line_no": 382
+        },
+        {
+            "start": 5307,
+            "end": 5328,
+            "file": 1,
+            "method": "saveMeta",
+            "line": 48,
+            "file_line_no": 361
+        },
+        {
+            "start": 5329,
+            "end": 5361,
+            "file": 1,
+            "method": "saveMeta",
+            "line": 2,
+            "file_line_no": 315
+        },
+        {
+            "start": 5362,
+            "end": 5366,
+            "file": 1,
+            "method": "saveMeta",
+            "line": 3,
+            "file_line_no": 316
+        },
+        {
+            "start": 5367,
+            "end": 5379,
+            "file": 1,
+            "method": "saveMeta",
+            "line": 6,
+            "file_line_no": 319
+        },
+        {
+            "start": 5380,
+            "end": 5384,
+            "file": 1,
+            "method": "saveMeta",
+            "line": 7,
+            "file_line_no": 320
+        },
+        {
+            "start": 5385,
+            "end": 5438,
+            "file": 1,
+            "method": "saveMeta",
+            "line": 10,
+            "file_line_no": 323
+        },
+        {
+            "start": 5439,
+            "end": 5456,
+            "file": 1,
+            "method": "registerDomain",
+            "line": 12,
+            "file_line_no": 265
+        },
+        {
+            "start": 5457,
+            "end": 5489,
+            "file": 1,
+            "method": "registerDomain",
+            "line": 2,
+            "file_line_no": 255
+        },
+        {
+            "start": 5490,
+            "end": 5494,
+            "file": 1,
+            "method": "registerDomain",
+            "line": 3,
+            "file_line_no": 256
+        },
+        {
+            "start": 5495,
+            "end": 5504,
+            "file": 1,
+            "method": "registerDomain",
+            "line": 6,
+            "file_line_no": 259
+        },
+        {
+            "start": 5505,
+            "end": 5509,
+            "file": 1,
+            "method": "registerDomain",
+            "line": 7,
+            "file_line_no": 260
+        },
+        {
+            "start": 5510,
+            "end": 5518,
+            "file": 1,
+            "method": "registerDomain",
+            "line": 10,
+            "file_line_no": 263
+        },
+        {
+            "start": 5519,
+            "end": 5523,
+            "file": 1,
+            "method": "registerDomain",
+            "line": 11,
+            "file_line_no": 264
+        },
+        {
+            "start": 5524,
+            "end": 5553,
+            "file": 1,
+            "method": "registerDomain",
+            "line": 36,
+            "file_line_no": 289
+        },
+        {
+            "start": 5554,
+            "end": 5582,
+            "file": 1,
+            "method": "registerDomain",
+            "line": 38,
+            "file_line_no": 291
+        },
+        {
+            "start": 5583,
+            "end": 5583,
+            "file": 1,
+            "method": "registerDomain",
+            "line": 39,
+            "file_line_no": 292
+        },
+        {
+            "start": 5584,
+            "end": 5593,
+            "file": 1,
+            "method": "registerDomain",
+            "line": 41,
+            "file_line_no": 294
+        },
+        {
+            "start": 5594,
+            "end": 5594,
+            "file": 1,
+            "method": "registerDomain",
+            "line": 42,
+            "file_line_no": 295
+        },
+        {
+            "start": 5595,
+            "end": 5626,
+            "file": 1,
+            "method": "registerDomain",
+            "line": 43,
+            "file_line_no": 296
+        },
+        {
+            "start": 5627,
+            "end": 5657,
+            "file": 1,
+            "method": "registerDomain",
+            "line": 45,
+            "file_line_no": 298
+        },
+        {
+            "start": 5658,
+            "end": 5669,
+            "file": 1,
+            "method": "registerDomain",
+            "line": 47,
+            "file_line_no": 300
+        },
+        {
+            "start": 5670,
+            "end": 5679,
+            "file": 1,
+            "method": "registerDomain",
+            "line": 48,
+            "file_line_no": 301
+        },
+        {
+            "start": 5680,
+            "end": 5696,
+            "file": 1,
+            "method": "existPendingTransaction",
+            "line": 49,
+            "file_line_no": 285
+        },
+        {
+            "start": 5697,
+            "end": 5711,
+            "file": 1,
+            "method": "existPendingTransaction",
+            "line": 2,
+            "file_line_no": 238
+        },
+        {
+            "start": 5712,
+            "end": 5763,
+            "file": 1,
+            "method": "existPendingTransaction",
+            "line": 3,
+            "file_line_no": 239
+        },
+        {
+            "start": 5764,
+            "end": 5774,
+            "file": 1,
+            "method": "existPendingTransaction",
+            "line": 4,
+            "file_line_no": 240
+        },
+        {
+            "start": 5775,
+            "end": 5776,
+            "file": 1,
+            "method": "existPendingTransaction",
+            "line": 5,
+            "file_line_no": 241
+        },
+        {
+            "start": 5777,
+            "end": 5790,
+            "file": 1,
+            "method": "existSubaccount",
+            "line": 6,
+            "file_line_no": 228
+        },
+        {
+            "start": 5791,
+            "end": 5842,
+            "file": 1,
+            "method": "existSubaccount",
+            "line": 2,
+            "file_line_no": 224
+        },
+        {
+            "start": 5843,
+            "end": 5863,
+            "file": 1,
+            "method": "existDomainAndOwnerOrSubaccountWithHash",
+            "line": 3,
+            "file_line_no": 206
+        },
+        {
+            "start": 5864,
+            "end": 5872,
+            "file": 1,
+            "method": "existDomainAndOwnerOrSubaccountWithHash",
+            "line": 2,
+            "file_line_no": 205
+        },
+        {
+            "start": 5873,
+            "end": 5877,
+            "file": 1,
+            "method": "existDomainAndOwnerOrSubaccountWithHash",
+            "line": 3,
+            "file_line_no": 206
+        },
+        {
+            "start": 5878,
+            "end": 5890,
+            "file": 1,
+            "method": "existDomainAndOwnerOrSubaccountWithHash",
+            "line": 4,
+            "file_line_no": 207
+        },
+        {
+            "start": 5891,
+            "end": 5905,
+            "file": 1,
+            "method": "existDomainAndOwnerOrSubaccountWithHash",
+            "line": 6,
+            "file_line_no": 209
+        },
+        {
+            "start": 5906,
+            "end": 5915,
+            "file": 1,
+            "method": "existDomainAndOwnerOrSubaccountWithHash",
+            "line": 7,
+            "file_line_no": 210
+        },
+        {
+            "start": 5916,
+            "end": 5932,
+            "file": 1,
+            "method": "existDomainAndOwnerWithHash",
+            "line": 8,
+            "file_line_no": 196
+        },
+        {
+            "start": 5933,
+            "end": 5941,
+            "file": 1,
+            "method": "existDomainAndOwnerWithHash",
+            "line": 2,
+            "file_line_no": 190
+        },
+        {
+            "start": 5942,
+            "end": 5946,
+            "file": 1,
+            "method": "existDomainAndOwnerWithHash",
+            "line": 3,
+            "file_line_no": 191
+        },
+        {
+            "start": 5947,
+            "end": 5972,
+            "file": 1,
+            "method": "owner",
+            "line": 4,
+            "file_line_no": 178
+        },
+        {
+            "start": 5973,
+            "end": 6024,
+            "file": 1,
+            "method": "owner",
+            "line": 2,
+            "file_line_no": 176
+        },
+        {
+            "start": 6025,
+            "end": 6042,
+            "file": 1,
+            "method": "existSubDomain",
+            "line": 3,
+            "file_line_no": 163
+        },
+        {
+            "start": 6043,
+            "end": 6094,
+            "file": 1,
+            "method": "existSubDomain",
+            "line": 2,
+            "file_line_no": 162
+        },
+        {
+            "start": 6095,
+            "end": 6110,
+            "file": 1,
+            "method": "existDomain",
+            "line": 3,
+            "file_line_no": 148
+        },
+        {
+            "start": 6111,
+            "end": 6162,
+            "file": 1,
+            "method": "existDomain",
+            "line": 2,
+            "file_line_no": 147
+        },
+        {
+            "start": 6163,
+            "end": 6178,
+            "file": 1,
+            "method": "listDomains",
+            "line": 3,
+            "file_line_no": 128
+        },
+        {
+            "start": 6179,
+            "end": 6189,
+            "file": 1,
+            "method": "listDomains",
+            "line": 2,
+            "file_line_no": 127
+        },
+        {
+            "start": 6190,
+            "end": 6241,
+            "file": 1,
+            "method": "listDomains",
+            "line": 3,
+            "file_line_no": 128
+        },
+        {
+            "start": 6242,
+            "end": 6249,
+            "file": 1,
+            "method": "listDomains",
+            "line": 4,
+            "file_line_no": 129
+        },
+        {
+            "start": 6250,
+            "end": 6254,
+            "file": 1,
+            "method": "listDomains",
+            "line": 5,
+            "file_line_no": 130
+        },
+        {
+            "start": 6255,
+            "end": 6268,
+            "file": 1,
+            "method": "readDomain",
+            "line": 7,
+            "file_line_no": 97
+        },
+        {
+            "start": 6269,
+            "end": 6298,
+            "file": 1,
+            "method": "readDomain",
+            "line": 2,
+            "file_line_no": 92
+        },
+        {
+            "start": 6299,
+            "end": 6328,
+            "file": 1,
+            "method": "readDomain",
+            "line": 3,
+            "file_line_no": 93
+        },
+        {
+            "start": 6329,
+            "end": 6336,
+            "file": 1,
+            "method": "readDomain",
+            "line": 5,
+            "file_line_no": 95
+        },
+        {
+            "start": 6337,
+            "end": 6341,
+            "file": 1,
+            "method": "readDomain",
+            "line": 6,
+            "file_line_no": 96
+        },
+        {
+            "start": 6342,
+            "end": 6374,
+            "file": 1,
+            "method": "readDomain",
+            "line": 9,
+            "file_line_no": 99
+        },
+        {
+            "start": 6375,
+            "end": 6407,
+            "file": 1,
+            "method": "readDomain",
+            "line": 11,
+            "file_line_no": 101
+        },
+        {
+            "start": 6408,
+            "end": 6440,
+            "file": 1,
+            "method": "readDomain",
+            "line": 13,
+            "file_line_no": 103
+        },
+        {
+            "start": 6441,
+            "end": 6473,
+            "file": 1,
+            "method": "readDomain",
+            "line": 15,
+            "file_line_no": 105
+        },
+        {
+            "start": 6474,
+            "end": 6506,
+            "file": 1,
+            "method": "readDomain",
+            "line": 17,
+            "file_line_no": 107
+        },
+        {
+            "start": 6507,
+            "end": 6533,
+            "file": 1,
+            "method": "readDomain",
+            "line": 20,
+            "file_line_no": 110
+        },
+        {
+            "start": 6534,
+            "end": 6542,
+            "file": 1,
+            "method": "name",
+            "line": 22,
+            "file_line_no": 89
+        },
+        {
+            "start": 6543,
+            "end": 6569,
+            "file": 2,
+            "method": "range",
+            "line": 2,
+            "file_line_no": 75
+        },
+        {
+            "start": 6570,
+            "end": 6581,
+            "file": 2,
+            "method": "range",
+            "line": 9,
+            "file_line_no": 82
+        },
+        {
+            "start": 6582,
+            "end": 6590,
+            "file": 2,
+            "method": "range",
+            "line": 11,
+            "file_line_no": 84
+        },
+        {
+            "start": 6591,
+            "end": 6596,
+            "file": 2,
+            "method": "range",
+            "line": 13,
+            "file_line_no": 86
+        },
+        {
+            "start": 6597,
+            "end": 6604,
+            "file": 2,
+            "method": "range",
+            "line": 15,
+            "file_line_no": 88
+        },
+        {
+            "start": 6605,
+            "end": 6616,
+            "file": 2,
+            "method": "range",
+            "line": 17,
+            "file_line_no": 90
+        },
+        {
+            "start": 6617,
+            "end": 6628,
+            "file": 2,
+            "method": "range",
+            "line": 18,
+            "file_line_no": 91
+        },
+        {
+            "start": 6629,
+            "end": 6639,
+            "file": 2,
+            "method": "range",
+            "line": 19,
+            "file_line_no": 92
+        },
+        {
+            "start": 6640,
+            "end": 6649,
+            "file": 2,
+            "method": "range",
+            "line": 20,
+            "file_line_no": 93
+        },
+        {
+            "start": 6650,
+            "end": 6667,
+            "file": 2,
+            "method": "range",
+            "line": 21,
+            "file_line_no": 94
+        },
+        {
+            "start": 6668,
+            "end": 6686,
+            "file": 2,
+            "method": "range",
+            "line": 23,
+            "file_line_no": 96
+        },
+        {
+            "start": 6687,
+            "end": 6698,
+            "file": 2,
+            "method": "range",
+            "line": 9,
+            "file_line_no": 82
+        },
+        {
+            "start": 6699,
+            "end": 6707,
+            "file": 2,
+            "method": "range",
+            "line": 11,
+            "file_line_no": 84
+        },
+        {
+            "start": 6708,
+            "end": 6713,
+            "file": 2,
+            "method": "range",
+            "line": 13,
+            "file_line_no": 86
+        },
+        {
+            "start": 6714,
+            "end": 6721,
+            "file": 2,
+            "method": "range",
+            "line": 15,
+            "file_line_no": 88
+        },
+        {
+            "start": 6722,
+            "end": 6733,
+            "file": 2,
+            "method": "range",
+            "line": 17,
+            "file_line_no": 90
+        },
+        {
+            "start": 6734,
+            "end": 6745,
+            "file": 2,
+            "method": "range",
+            "line": 18,
+            "file_line_no": 91
+        },
+        {
+            "start": 6746,
+            "end": 6756,
+            "file": 2,
+            "method": "range",
+            "line": 19,
+            "file_line_no": 92
+        },
+        {
+            "start": 6757,
+            "end": 6766,
+            "file": 2,
+            "method": "range",
+            "line": 20,
+            "file_line_no": 93
+        },
+        {
+            "start": 6767,
+            "end": 6784,
+            "file": 2,
+            "method": "range",
+            "line": 21,
+            "file_line_no": 94
+        },
+        {
+            "start": 6785,
+            "end": 6790,
+            "file": 2,
+            "line": 23
+        }
+    ],
+    "breakpoints": [
+        2991,
+        3459,
+        3476,
+        5583,
+        5594
+    ]
+}
