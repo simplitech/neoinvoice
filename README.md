@@ -25,6 +25,7 @@ The system is supposed to be used by two kinds of users: the seller and the buye
 <b>The seller case</b>
 For the Seller, 
 
+[Imgur](https://imgur.com/afHQz1X.png)
 
 To pay for an invoice, the user must first find the transaction he is willing to pay. He does that by using the domain name in combination with the id of the invoice.
 
