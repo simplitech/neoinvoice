@@ -25,15 +25,6 @@ The system is supposed to be used by two kinds of users: the seller and the buye
 <b>The seller case</b>
 For the Seller, 
 
-![](https://imgur.com/afHQz1X.png)
-![](https://imgur.com/9hWvkJI.png)
-![](https://imgur.com/1S7XJoV.png)
-![](https://imgur.com/H5wCq4a.png)
-![](https://imgur.com/28HXc0X.png)
-![](https://imgur.com/wM2lbNl.png)
-![](https://imgur.com/xulnwVN.png)
-![](https://imgur.com/0betgAc.png)
-
 To pay for an invoice, the user must first find the transaction he is willing to pay. He does that by using the domain name in combination with the id of the invoice.
 
 If the invoice is correct, the user will be able to see each individual product or service that he is being charged for, and easiliy pay it using the 'Pay' button.
@@ -42,3 +33,11 @@ The payment, instead of going to the SmartContract and have it's funds managed b
 
 Instead of using a second transaction to 'conclude' the pending invoice, we use a modified node that reads every transaction, and if a transaction with invoice id is found, we check the transaction value, and if the value is the accorded one, the invoice will be marked as 'paid'.
 
+![](https://imgur.com/afHQz1X.png)
+![](https://imgur.com/9hWvkJI.png)
+![](https://imgur.com/1S7XJoV.png)
+![](https://imgur.com/H5wCq4a.png)
+![](https://imgur.com/28HXc0X.png)
+![](https://imgur.com/wM2lbNl.png)
+![](https://imgur.com/xulnwVN.png)
+![](https://imgur.com/0betgAc.png)
