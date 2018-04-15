@@ -25,7 +25,14 @@ The system is supposed to be used by two kinds of users: the seller and the buye
 <b>The seller case</b>
 For the Seller, 
 
-[Imgur](https://imgur.com/afHQz1X.png)
+![](https://imgur.com/afHQz1X.png)
+![](https://imgur.com/9hWvkJI.png)
+![](https://imgur.com/1S7XJoV.png)
+![](https://imgur.com/H5wCq4a.png)
+![](https://imgur.com/28HXc0X.png)
+![](https://imgur.com/wM2lbNl.png)
+![](https://imgur.com/xulnwVN.png)
+![](https://imgur.com/0betgAc.png)
 
 To pay for an invoice, the user must first find the transaction he is willing to pay. He does that by using the domain name in combination with the id of the invoice.
 
