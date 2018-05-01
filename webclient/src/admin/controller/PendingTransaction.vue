@@ -11,6 +11,10 @@
 
         <section class="verti scroll weight-1 p-30" v-if="pendingTransaction.publicKey && pendingTransaction.publicKey.length">
 
+            <img
+                :src="`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${domainName};${idPendingTransaction}`"
+                class="self-center mb-20"/>
+
             <h2>{{ $t("classes.Wallet.title") }}</h2>
             <a class="dark-bg horiz p-15 wallet" @click="$router.push(`/wallet/${pendingTransaction.publicKey}`)">
                 <span class="weight-1">{{ pendingTransaction.publicKey }}</span>
