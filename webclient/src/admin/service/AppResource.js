@@ -188,11 +188,7 @@ export default {
           WalletStore.wallet.publicKey,
           Neon.u.str2hexstring(domainName));
 
-        if (!resp) {
-          throw new Error('Failed at test');
-        }
-
-        return resp; // respTest;
+        return resp;
       },
 
       /**

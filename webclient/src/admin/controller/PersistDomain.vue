@@ -46,13 +46,17 @@
       this.myPublicKey = WalletStore.wallet ? WalletStore.wallet.publicKey : null;
     },
     methods: {
-      persist() {
+      async persist() {
         this.loading = true;
-        this.$resources.registerDomain(this.domain).then(() => {
+        try {
+          await this.$resources.registerDomain(this.domain);
           this.loading = false;
           this.$bus.success(this.$lang.app.persistedSuccessfully, 3000);
           this.$router.go(-1);
-        });
+        } catch (e) {
+          this.loading = false;
+          this.$bus.error(e.message, 3000);
+        }
       },
     },
   };

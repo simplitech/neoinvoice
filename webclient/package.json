@@ -68,10 +68,11 @@
     "webpack-merge": "^4.1.0"
   },
   "dependencies": {
-    "@cityofzion/neon-js": "^3.3.2",
+    "@cityofzion/neon-js": "3.3.2",
     "animate.css": "^3.5.2",
     "chart.js": "^2.6.0",
     "debounce-promise": "^3.0.1",
+    "hoek": "^5.0.3",
     "js-sha256": "^0.6.0",
     "linelay": "^1.1.0",
     "lodash": "^4.17.4",

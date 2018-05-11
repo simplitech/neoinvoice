@@ -55,10 +55,13 @@
     },
     methods: {
       persist() {
-        this.$resources.transferDomain(this.domainName, this.newPublicKey).then(() => {
+        try {
+          this.$resources.transferDomain(this.domainName, this.newPublicKey);
           this.$bus.success(this.$lang.app.persistedSuccessfully, 3000);
           this.$router.push('/home');
-        });
+        } catch (e) {
+          this.$bus.error(e.message, 3000);
+        }
       },
     },
   };

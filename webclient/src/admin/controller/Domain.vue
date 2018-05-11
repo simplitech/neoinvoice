@@ -150,7 +150,11 @@
     },
     methods: {
       async populate() {
-        this.domainInfo = await this.$resources.readDomain(this.domainName);
+        try {
+          this.domainInfo = await this.$resources.readDomain(this.domainName);
+        } catch (e) {
+          this.$bus.error(e.message, 3000);
+        }
       },
       calcValue(transaction) {
         const scriptHash = WalletStore.wallet ? WalletStore.wallet.scriptHash : null;
@@ -159,22 +163,30 @@
           .reduce((sum, o) => sum + o.value, 0);
       },
       async removeSubdomain() {
-        const resp = await this.$resources
-          .removeSlaveAsMaster(this.domainName, this.subdomainToRemove.wallet);
-        if (resp) {
-          this.domainInfo.subdomainWallets
-            .splice(this.domainInfo.subdomainWallets.indexOf(this.subdomainToRemove), 1);
-          this.subdomainToRemove = null;
+        try {
+          const resp = await this.$resources
+            .removeSlaveAsMaster(this.domainName, this.subdomainToRemove.wallet);
+          if (resp) {
+            this.domainInfo.subdomainWallets
+              .splice(this.domainInfo.subdomainWallets.indexOf(this.subdomainToRemove), 1);
+            this.subdomainToRemove = null;
+          }
+        } catch (e) {
+          this.$bus.error(e.message, 3000);
         }
       },
       async removePendingTransaction() {
-        const resp = await this.$resources.removePendingTransaction(
-          this.domainName,
-          this.pendingTransactionToRemove.idPendingTransaction);
-        if (resp) {
-          this.domainInfo.pendingTransactions
-            .splice(this.domainInfo.pendingTransactions.indexOf(this.pendingTransactionToRemove), 1);
-          this.pendingTransactionToRemove = null;
+        try {
+          const resp = await this.$resources.removePendingTransaction(
+            this.domainName,
+            this.pendingTransactionToRemove.idPendingTransaction);
+          if (resp) {
+            this.domainInfo.pendingTransactions.splice(
+              this.domainInfo.pendingTransactions.indexOf(this.pendingTransactionToRemove), 1);
+            this.pendingTransactionToRemove = null;
+          }
+        } catch (e) {
+          this.$bus.error(e.message, 3000);
         }
       },
     },

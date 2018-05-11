@@ -57,9 +57,13 @@
     },
     methods: {
       async populateLists() {
-        const resp = await this.$resources.listDomains(this.walletPublicKey);
-        this.domains = resp.domains;
-        this.subdomains = resp.subdomains;
+        try {
+          const resp = await this.$resources.listDomains(this.walletPublicKey);
+          this.domains = resp.domains;
+          this.subdomains = resp.subdomains;
+        } catch (e) {
+          this.$bus.error(e.message, 3000);
+        }
       },
     },
   };

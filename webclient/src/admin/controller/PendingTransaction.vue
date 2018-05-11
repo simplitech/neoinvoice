@@ -95,20 +95,29 @@
     },
     methods: {
       async populate() {
-        this.pendingTransaction = await this.$resources
-          .readPendingTransaction(this.domainName, this.idPendingTransaction);
-        this.domainInfo = await this.$resources.readDomain(this.domainName);
+        try {
+          this.pendingTransaction = await this.$resources
+            .readPendingTransaction(this.domainName, this.idPendingTransaction);
+          this.domainInfo = await this.$resources.readDomain(this.domainName);
+        } catch (e) {
+          this.$bus.error(e.message, 3000);
+        }
       },
 
       async complete() {
         this.loading = true;
-        await this.$resources.completePendingTransaction(
-          this.domainName,
-          this.pendingTransaction.price,
-          this.idPendingTransaction);
-        this.loading = false;
-        this.$bus.success(this.$lang.app.persistedSuccessfully, 3000);
-        this.$router.go(-1);
+        try {
+          await this.$resources.completePendingTransaction(
+            this.domainName,
+            this.pendingTransaction.price,
+            this.idPendingTransaction);
+          this.loading = false;
+          this.$bus.success(this.$lang.app.persistedSuccessfully, 3000);
+          this.$router.go(-1);
+        } catch (e) {
+          this.loading = false;
+          this.$bus.error(e.message, 3000);
+        }
       },
     },
   };

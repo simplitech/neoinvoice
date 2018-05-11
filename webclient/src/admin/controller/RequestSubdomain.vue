@@ -40,11 +40,14 @@
       this.myPublicKey = WalletStore.wallet.publicKey;
     },
     methods: {
-      persist() {
-        this.$resources.addDomainAsSubaccount(this.domain).then(() => {
+      async persist() {
+        try {
+          await this.$resources.addDomainAsSubaccount(this.domain);
           this.$bus.success(this.$lang.classes.Domain.messages.requestSentWaitApproval, 3000);
           this.$router.go(-1);
-        });
+        } catch (e) {
+          this.$bus.error(e.message, 3000);
+        }
       },
     },
   };

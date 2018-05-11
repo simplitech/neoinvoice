@@ -46,11 +46,13 @@
     },
     methods: {
       persist() {
-        this.$resources.addSlaveAsMaster(this.domainName, this.newPublicKey, this.subdomainName)
-          .then(() => {
-            this.$bus.success(this.$lang.classes.Domain.messages.requestSentWaitAcceptance, 3000);
-            this.$router.go(-1);
-          });
+        try {
+          this.$resources.addSlaveAsMaster(this.domainName, this.newPublicKey, this.subdomainName);
+          this.$bus.success(this.$lang.classes.Domain.messages.requestSentWaitAcceptance, 3000);
+          this.$router.go(-1);
+        } catch (e) {
+          this.$bus.error(e.message, 3000);
+        }
       },
     },
   };

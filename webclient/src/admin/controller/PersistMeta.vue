@@ -58,21 +58,30 @@
     },
     methods: {
       async populate() {
-        const info = await this.$resources.readDomain(this.domainName);
+        try {
+          const info = await this.$resources.readDomain(this.domainName);
 
-        this.metaAsArray = info.meta ? Object.keys(info.meta)
-          .map(key => ({ key, value: info.meta[key] })) : [];
+          this.metaAsArray = info.meta ? Object.keys(info.meta)
+            .map(key => ({ key, value: info.meta[key] })) : [];
+        } catch (e) {
+          this.$bus.error(e.message, 3000);
+        }
       },
-      persist() {
+      async persist() {
         const meta = this.metaAsArray.filter(item => item.key)
           .reduce((whole, item) => ({ ...whole, [item.key]: item.value }), {});
 
         this.loading = true;
-        this.$resources.saveMeta(this.domainName, meta).then(() => {
+
+        try {
+          await this.$resources.saveMeta(this.domainName, meta);
           this.loading = false;
           this.$bus.success(this.$lang.app.persistedSuccessfully, 3000);
           this.$router.go(-1);
-        });
+        } catch (e) {
+          this.loading = false;
+          this.$bus.error(e.message, 3000);
+        }
       },
     },
   };

@@ -81,21 +81,24 @@
       this.domainName = this.$route.params.domain;
     },
     methods: {
-      persist() {
+      async persist() {
         const transactionAttributes = this.transactionAttributesAsArray.filter(item => item.key)
           .reduce((whole, item) => ({ ...whole, [item.key]: item.value }), {});
 
         this.loading = true;
-        this.$resources.createPendingTransaction(
-          this.domainName,
-          this.amount,
-          this.assetID,
-          transactionAttributes)
-          .then(() => {
-            this.loading = false;
-            this.$bus.success(this.$lang.app.persistedSuccessfully, 3000);
-            this.$router.go(-1);
-          });
+        try {
+          await this.$resources.createPendingTransaction(
+            this.domainName,
+            this.amount,
+            this.assetID,
+            transactionAttributes);
+          this.loading = false;
+          this.$bus.success(this.$lang.app.persistedSuccessfully, 3000);
+          this.$router.go(-1);
+        } catch (e) {
+          this.loading = false;
+          this.$bus.error(e.message, 3000);
+        }
       },
     },
   };
